@@ -1,0 +1,75 @@
+@font-face {
+    font-family: manga;
+    src: url(..fonte/mangati.ttf);
+}
+h1
+{
+font-family: manga;
+}
+h2
+{
+    font-family: manga;
+    font-size: 70px;
+}
+h3
+{
+    font-family: manga;
+    font-size: 50px;
+    color: gray;
+}
+h4
+{
+    font-family: manga;
+    font-size: 30px;
+    opacity: 30%;
+}
+@media screen and (min-width :700px) 
+{
+    .imagens
+{
+display: flex;
+}
+.compra
+{
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+#imagem
+{
+    width: 90%;
+}
+.card2
+{
+    width: 100%;
+}
+button
+{
+    width: 50%;
+    align-items: center;
+}
+}
+.imagens
+{
+    margin: 10px;
+}
+.card
+{
+    padding: 16px;
+    border: none;
+}
+
+#imagem
+{
+    width: 85%;
+    display: flex;
+}
+button
+{
+    width: 50%;
+    align-items: center;
+}
+html
+{
+    overflow-x: hidden;
+}
